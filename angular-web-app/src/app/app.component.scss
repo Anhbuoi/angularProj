@@ -1,0 +1,28 @@
+.main-header-title {
+  font-size: 20px;
+  text-align: center;
+  font-weight: 500;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-footer-content {
+  display: flex;
+  justify-content: flex-end;
+  height: 40px;
+  align-items: center;
+}
+
+.container {
+  flex: 1;    /* same as flex-grow: 1; */
+}
+
+.footer-container {
+  display: block;
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  z-index: 9999;
+}

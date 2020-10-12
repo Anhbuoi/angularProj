@@ -6,5 +6,6 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'angular-web-app';
+  title = 'Main Application';
+  copyRight = "@Copyright by Hai Phan";
 }
