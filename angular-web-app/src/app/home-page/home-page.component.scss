@@ -1,0 +1,17 @@
+.image {
+  height: 200px;
+  object-fit: scale-down;
+}
+
+.wrap-content {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.responsive-list {
+  display: block;
+  width: 300px;
+}
+

@@ -1,0 +1,13 @@
+<div class="wrap-content">
+  <div class="responsive-list" *ngFor="let item of getList()">
+    <div>
+      {{item.name}}
+    </div>
+    <div>
+      <img class="image" src="{{item.image}}">
+    </div>
+    <div>
+      <span>${{item.pricing}}</span>
+    </div>
+  </div>
+</div>
