@@ -1,11 +1,14 @@
 .main-header-title {
-  font-size: 20px;
-  text-align: center;
-  font-weight: 500;
   height: 40px;
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.home-button {
+  font-size: 20px;
+  text-align: center;
+  font-weight: 500;
 }
 
 .main-footer-content {
@@ -16,13 +19,13 @@
 }
 
 .container {
+  min-height: 900px;
+  padding-bottom: 7px;
   flex: 1;    /* same as flex-grow: 1; */
 }
 
 .footer-container {
   display: block;
   width: 100%;
-  position: fixed;
-  bottom: 0;
-  z-index: 9999;
+  bottom: 0 !important;
 }

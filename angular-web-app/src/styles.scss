@@ -8,7 +8,6 @@ body {
   margin: 0;
   font-family: Roboto, "Helvetica Neue", sans-serif;
   display: flex;
-  min-height: 100vh;
   flex-direction: column;
 }
 
@@ -21,4 +20,12 @@ mat-card,
 .card-footer {
   background-color: #00528E;
   height: 40px;
+}
+
+.no-outline {
+  outline: none;
+}
+
+.height100 {
+  height: 100%;
 }

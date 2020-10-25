@@ -2,14 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8fa51a0b-0782-4f14-b62b-2a463f75c4bf" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/angular-web-app/src/app/demo-page/demo-page.component.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/angular-web-app/src/app/demo-page/demo-page.component.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/angular-web-app/src/app/demo-page/demo-page.component.spec.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/angular-web-app/src/app/demo-page/demo-page.component.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/angular-web-app/src/app/demo-page/demo-page.module.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/angular-web-app/src/app/home-page/home-page.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/angular-web-app/src/app/home-page/home-page.component.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/angular-web-app/src/app/home-page/home-page.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/angular-web-app/src/app/home-page/home-page.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/angular-web-app/src/app/home-page/home-page.module.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/angular-web-app/src/app/model/json-model.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/angular-web-app/src/app/app-routing.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/angular-web-app/src/app/app-routing.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular-web-app/src/app/app.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/angular-web-app/src/app/app.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular-web-app/src/app/app.component.scss" beforeDir="false" afterPath="$PROJECT_DIR$/angular-web-app/src/app/app.component.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular-web-app/src/app/app.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/angular-web-app/src/app/app.component.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/angular-web-app/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/angular-web-app/src/app/app.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular-web-app/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/angular-web-app/src/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular-web-app/src/styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/angular-web-app/src/styles.scss" afterDir="false" />
     </list>
     <list id="cc6a27e3-e6a7-4501-9843-ad840a0cbb1e" name="DO NOT COMMIT" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -34,6 +40,7 @@
   <component name="ProjectId" id="1ijkWiuyEv0o20nFrN4Ze80MUXc" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="TODO_SCOPE" value="All Places" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
@@ -43,6 +50,11 @@
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\angularProj\angular-web-app\src\app\home-page" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -56,7 +68,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="npm.start">
+  <component name="RunManager" selected="JavaScript Debug.angularProj Debugger">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">

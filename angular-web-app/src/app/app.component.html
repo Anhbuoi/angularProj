@@ -1,15 +1,19 @@
-<div>
-  <div class="container">
-    <mat-card class="card-header">
-      <div tabindex="0" class="main-header-title" [innerHTML]="title"></div>
-    </mat-card>
-    <router-outlet></router-outlet>
-  </div>
-  <div class="footer-container">
-    <mat-card class="card-footer">
-      <div class="main-footer-content">
-        <div [innerHTML]="copyRight"></div>
-      </div>
-    </mat-card>
-  </div>
+<div class="container">
+  <mat-card class="card-header">
+    <div tabindex="0" class="main-header-title no-outline">
+      <button mat-button class="home-button" [routerLink]="['']">
+        <div [innerHTML]="title">
+        </div>
+      </button>
+    </div>
+  </mat-card>
+  <router-outlet></router-outlet>
+</div>
+<!--  todo fix footer-->
+<div class="footer-container">
+  <mat-card class="card-footer">
+    <div class="main-footer-content">
+      <div [innerHTML]="copyRight"></div>
+    </div>
+  </mat-card>
 </div>
